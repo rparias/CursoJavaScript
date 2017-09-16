@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Jugando con variables</title>
+    <link rel="stylesheet" href="css/micss2.css">
+
+</head>
+
+<body>
+<div class="contenedor">
+    <div class="header">
+        <p class="logo">Curso JavaScript Píldoras Informáticas</p>
+    </div>
+    <div class="contenido">
+        <div class="principal">
+            <h1>Jugando con las variables</h1>
+
+            <script>
+                //prompt es para ingreso de datos
+                var nombre = prompt("Ingrese su nombre:");
+                var apellido = prompt("Ingrese su apellido:");
+                var edad = prompt("Ingrese su edad:");
+                var resta = prompt("Cuantos años desea quitarse:")
+
+                edad -= resta;
+
+                //puedo poner codigo html en un document.write
+                document.write("<p>");
+                document.write("Hola " + nombre + " " + apellido + "<br/>" + "Te gustaria tener " + edad);
+                document.write("</p>");
+            </script>
+
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
